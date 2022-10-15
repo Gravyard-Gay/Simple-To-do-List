@@ -1,6 +1,5 @@
 :root {
   --main-color: #a426c3;
-  --sub-color: #7f2cb6;
   --fix-border: 22px;
   --bg-col-1: #111;
   --bg-col-2: #222;
@@ -39,7 +38,7 @@ body {
 }
 
 .header {
-  background: linear-gradient(90deg, var(--main-color), var(--sub-color));
+  background: var(--main-color);
   padding: 15px;
 }
 .header h1 {
@@ -59,6 +58,7 @@ body {
 .repo {
   display: block;
   text-align: right;
+  color: white;
 }
 .repo svg {
   opacity: 0.4;
