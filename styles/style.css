@@ -23,7 +23,7 @@ body {
   align-items: center;
   color: #fff;
   font-size: 22px;
-  background: #020202;
+  background: radial-gradient(#090909, #000);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
